@@ -26,7 +26,7 @@ module.exports = {
       confirmThisThread: "📥 Thả cảm xúc để xác nhận thay đổi prefix nhóm này",
       successGlobal: "✅ Đã thay đổi prefix hệ thống thành: %1",
       successThisThread: "✅ Đã thay đổi prefix nhóm thành: %1",
-      myPrefix: "\n𝗔𝗘𝗦𝗧𝗛𝗘𝗥-𝗕𝗢𝗧\n\n ➫𝗣𝗙 : [ %2 ]\n\n🌸 [𝗚𝗢𝗔𝗧𝗧𝗕𝗢𝗧-𝗩𝟮]\n☁️ 𝘼𝘿𝙈𝙄𝙉-𝙇𝙄𝙉𝙆: \n➤https://www.facebook.com/thegodess.aesther\n✦contact 𝗔𝗗𝗠𝗜𝗡✦"
+      myPrefix: "\n𝗦𝗢𝗡𝗜𝗖-𝗕𝗢𝗧\n\n ➫𝗣𝗙 : [ %2 ]\n\n🩶 [𝗚𝗢𝗔𝗧𝗧𝗕𝗢𝗧-𝗩𝟮]\\n✦contact 𝗔𝗗𝗠𝗜𝗡✦"
     },
     en: {
       reset: "✅ Your prefix has been reset to default: %1",
