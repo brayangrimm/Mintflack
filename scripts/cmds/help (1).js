@@ -55,7 +55,7 @@ module.exports = {
 
       Object.keys(categories).forEach((category) => {
         if (category !== "info") {
-          msg += ` \n✪ ━「${category.toUpperCase()}」━`;
+          msg += ` \n✙ ━「${category.toUpperCase()}」━`;
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
             const cmds = names.slice(i, i + 3).map((item) => `\n⌨︎_${item}`);
@@ -67,8 +67,8 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\n\n〓〓〓〓〓〓〓〓〓〓〓\n➪[📅] Total Commands [${totalCommands}]\n➪[🛄] OWNER: The GODDESS Aesther\n➪[🔱] NB: use called in any report`;
-      msg += `\n\n/// 💬 AESTHER BOT ////`;
+      msg += `\n\n〓〓〓〓〓〓〓〓〓〓〓\n➪[📅] Total Commands [${totalCommands}]\n➪[🛄] OWNER: ༶•┈┈⛧┈♛GUMBALL ༶•┈┈⛧┈♛\n➪[🔱] NB: use called in any report`;
+      msg += `\n\n/// 🪫 SONIC BOT ////`;
       msg += ``;
 
       const response = await message.reply({ body: msg });
@@ -89,9 +89,9 @@ module.exports = {
         const guideBody = configCommand.guide?.en || "No guide available.";
         const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
 
-        const response = `🟢𝗡𝗔𝗠𝗘⚪\n--------------------------------------\n
+        const response = `🫗𝗡𝗔𝗠𝗘⚪\n--------------------------------------\n
  〉[ ${configCommand.name}]\n
-🟢𝗜𝗡𝗙𝗢⚪\n--------------------------------------\n
+🫙𝗜𝗡𝗙𝗢🫙\n--------------------------------------\n
    〉[description]:\n▶︎${longDescription}\n
    〉🔵[Other-names]:\n▶︎${configCommand.aliases ? configCommand.aliases.join(", ") : "Do not have"} Other names in your group: Do not have\n
    〉🔵[Version]:\n▶︎${configCommand.version || "1.0"}\n
@@ -99,7 +99,7 @@ module.exports = {
    〉🔵Time per command:\n ▶︎${configCommand.countDown || 1}s\n
    〉🔵[Author]:\n▶︎${author}\n
 🟢𝗨𝗦𝗔𝗚𝗘⚪\n--------------------------------------\n
-▶︎ ${usage}\n--------------------------------------\n🟢 by-AE-STER ⚪`;
+▶︎ ${usage}\n--------------------------------------\n🟢  GOOD ⚪`;
 
         const responseMessage = await message.reply(response);
         deleteMessageAfterOneMinute(responseMessage.messageID);
